@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PlayMaps</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="apple_description">Manzana</string>
+    <string name="banana_description">Plátano</string>
+    <string name="carrot_description">Zanahoria</string>
+</resources>

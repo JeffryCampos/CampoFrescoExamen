@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2F552F">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ofertas"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:onClick="oferta1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/durazno"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="8dp"
+               />
+
+
+            <ImageButton
+                android:onClick="oferta2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/tomate"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="8dp"
+                />
+
+
+            <ImageButton
+                android:onClick="oferta3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/brocoli"
+                tools:srcCompat="@drawable/brocoli"
+                android:background="@android:color/transparent"
+                />
+
+
+            <ImageButton
+                android:onClick="oferta4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zanahoria"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="8dp"
+                />
+
+
+            <ImageButton
+                android:onClick="oferta5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sandia"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+               />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frutas"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:onClick="Manzana"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/manzana"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+
+            <ImageButton
+                android:onClick="platano"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/platano"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+            <!-- Imagen 3 -->
+            <ImageButton
+                android:onClick="naranja"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/naranja"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+            <!-- Imagen 4 -->
+            <ImageButton
+                android:onClick="durazno"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/durazno"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+            <!-- Imagen 5 -->
+            <ImageButton
+                android:onClick="sandia"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sandia"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verduras"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Imagen 1 -->
+            <ImageButton
+                android:onClick="zanahoria"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zanahoria"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+            <!-- Imagen 2 -->
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:onClick="tomate"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tomate" />
+
+            <!-- Imagen 3 -->
+            <ImageButton
+                android:onClick="cebolla"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cebolla"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+            <!-- Imagen 4 -->
+            <ImageButton
+                android:onClick="brocoli"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/brocoli"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                />
+
+            <!-- Imagen 5 -->
+            <ImageButton
+                android:onClick="palta"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/palta"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="105dp"
+        android:orientation="horizontal">
+
+        <!-- Imagen 1 -->
+
+        <ImageButton
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carrito" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Lista en el carrito:\n"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/InicioMapa"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4D8E4D"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="Conoce nuestra sucursal"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/InicioBoleta"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4D8E4D"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Siguiente"
+        android:textColor="@color/white" />
+
+</LinearLayout>
